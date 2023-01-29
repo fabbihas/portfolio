@@ -1,7 +1,7 @@
 
 # My Portfolio
 
-Contains my a brief description about myself and my work and links to my projects.
+Contains a brief description about myself and my work and links to my projects.
 
 ## Features
 
