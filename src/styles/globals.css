@@ -27,3 +27,13 @@ a {
   font-family: 'burtons';
   src: url('../public/Burtons.otf')
 }
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../public/Nunito-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Bayon';
+  src: url('../public/Bayon-Regular.ttf');
+}

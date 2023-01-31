@@ -8,12 +8,26 @@ module.exports = {
   ],
   theme: {
     colors: {
-      "khaki": '#E0D8CD'
+      "transparent": 'transparent',
+      "khaki": '#E0D8CD',
+      "offwhite": '#FFFFFF',
+      "liver": '#654236',
     },
     extend: {
       fontFamily: {
         burtons: "burtons",
-      }
+        nunito: ['"Nunito"'],
+        bayon: ['"Bayon"'],
+      },
+      objectPosition: { 
+        'center-right': 'center right',
+      },
+      container: {
+          padding: '2rem'
+      },
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
     },
   },
   plugins: [],
