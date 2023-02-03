@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           <div className='lg:flex gap-10'>
             <div className='flex flex-col justify-center items-center text-center font-nunito shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <Image src={design}/>
+              <a target="_blank" href="https://fetchpoke.netlify.app/"><Image src={design} alt="Games console in grey" title="Click here"/></a>
               <h3 className='text-lg font-medium font-bayon pt-8 pb-2'>Pokemon API</h3>
               <p className='font-nunito py-2'>In week two of the bootcamp, I built an app that shows the user random Pokemon's using the PokeAPI. This was built using the fetch API along with HTML, CSS and JS. </p>
               <h4 className='py-4 text-teal-600'>Built with:</h4>
@@ -60,7 +60,7 @@ export default function Home() {
               <p className='text-gray-800 py-1'>JavaScript</p>
             </div>
             <div className='flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <Image src={code}/>
+              <Image src={code} alt="Scissors" title="Click here"/>
               <h3 className='text-lg font-bayon font-medium pt-8 pb-2'>Snip.FYI</h3>
               <p className='font-nunito py-2'>To solve the problem many developers have of not having someplace to store handy code snippets, my team and I built an app that does exactly that.</p>
               <h4 className='py-4 text-teal-600'>Built with:</h4>
@@ -70,7 +70,7 @@ export default function Home() {
               <p className='font-nunito text-gray-800 py-1'>Express routing and middleware</p>
             </div>
             <div className='flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-            <a target="_blank" href="https://life-care.onrender.com/"><Image src={consulting} title="Click here"/></a>
+            <a target="_blank" href="https://life-care.onrender.com/"><Image src={consulting} alt="Heart pulse" title="Click here"/></a>
               {/* <Image src={consulting} width={100} height={100}/> */}
               <h3 className='text-lg font-bayon font-medium pt-8 pb-2'>Life Care</h3>
               <p className='font-nunito py-2'>Month long project to build an app for carer's to take notes of their clients in the most efficient way possible so they can focus all their attention on clients. </p>
@@ -82,7 +82,7 @@ export default function Home() {
               <p className='font-nunito text-gray-800 py-1'>Express routing and middleware</p>
             </div>
             <div className='flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
-              <a target="_blank" href="https://weather-watches.onrender.com/"><Image src={weather} title="Click here"/></a>
+              <a target="_blank" href="https://weather-watches.onrender.com/"><Image src={weather} alt="Umbrella" title="Click here"/></a>
               <h3 className='text-lg font-bayon font-medium pt-8 pb-2'>Weather Watchers</h3>
               <p className='font-nunito py-2'>Month long project to build an app for carer's to take notes of their clients in the most efficient way possible so they can focus all their attention on clients. </p>
               <h4 className='py-4 font-nunito text-teal-600'>Built with:</h4>
