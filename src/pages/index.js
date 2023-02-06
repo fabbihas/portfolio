@@ -37,7 +37,7 @@ export default function Home() {
             <h3 className='text-2xl font-nunito py-2 dark:text-white md:text-3xl'>Junior Software Developer</h3>
             <p className='text-md font-nunito py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl'>Graduated from a 16 week intensive bootcamp read to apply my newly learnt skills to real world problems.</p>
             </div>
-            <div className='relative mx-auto mr-4 mb-8 mt-20 md:h-96 md:w-96'>
+            <div className='relative w-full max-w-xl rounded-md first-letter:mx-auto mr-4 mb-8 mt-20 md:h-96 md:w-96'>
             <Image className='w-250 h-250' src={deved}/>
           </div>
           </div>
