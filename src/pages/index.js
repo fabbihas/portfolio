@@ -28,7 +28,7 @@ export default function Home() {
             <h1 className='text-xl font-burtons'>lorem ipsum</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/></li>
-              <li><a className='bg-stone-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Contact</a></li>
+              <li><a className='bg-stone-500 text-white px-4 py-2 rounded-md ml-8' target="_blank" href='https://www.linkedin.com/in/fwabbiha/'>Contact</a></li>
             </ul>
           </nav>
           <div className='text-left p-10 flex justify-between'>
@@ -92,7 +92,6 @@ export default function Home() {
               <p className='font-nunito text-gray-800 py-1'>Chakra UI</p>
               <p className='font-nunito text-gray-800 py-1'>Express routing and middleware</p>
             </div>
-
           </div>
         </section>
         <section>
