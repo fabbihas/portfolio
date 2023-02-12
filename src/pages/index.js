@@ -25,32 +25,38 @@ export default function Home() {
       <main className='bg-khaki dark:bg-gray-900 px-10 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between dark:text-white'>
-            <h1 className='text-xl font-burtons'>lorem ipsum</h1>
+            <h1 className='text-xl font-burtons'>developedbyfabbiha</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/></li>
-              <li><a className='bg-stone-500 text-white px-4 py-2 rounded-md ml-8' target="_blank" href='https://www.linkedin.com/in/fwabbiha/'>Contact</a></li>
+              <li><a className='hover:underline font-nunito bg-stone-500 text-white px-4 py-2 rounded-md ml-8' target="_blank" href='https://www.linkedin.com/in/fwabbiha/'>Contact</a></li>
             </ul>
           </nav>
           <div className='text-left p-10 flex justify-between'>
             <div>
             <h2 className='text-5xl py-2 font-bayon font-medium dark:text-teal-400 md:text-6xl'>Fabbiha Sultana</h2>
             <h3 className='text-2xl font-nunito py-2 dark:text-white md:text-3xl'>Junior Software Developer</h3>
-            <p className='text-md font-nunito py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl'>Graduated from a 16 week intensive bootcamp read to apply my newly learnt skills to real world problems.</p>
+            <p className='text-md font-nunito py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl'>Recently graduated from a 16-week intensive bootcamp at School of Code where I received comprehensive training in software development. Prior to my switch to the tech industry, I worked in the healthcare sector, where I honed my skills in problem-solving, critical thinking, and teamwork.
+            
+            My passion for technology and innovation has driven me to pursue a career in software development, and I am eager to apply the skills and knowledge I have acquired to the rapidly growing industry.</p>
+            <p className='text-md font-nunito py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl'>Scroll down if you're interested in any of my projects.</p>
             </div>
             <div className='relative w-full max-w-xl rounded-md first-letter:mx-auto mr-4 mb-8 mt-20 md:h-96 md:w-96'>
             <Image className='w-250 h-250' src={deved}/>
           </div>
           </div>
+          {/* <svg class="animate-bounce w-6 h-6 ...">
+              <!-- ... -->
+          </svg> */}
         </section>
         {/* second page */}
         <section>
           <div className='text-left p-10'>
-          <h2 className='text-5xl py-2 font-bayon text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Projects</h2>
-          <h3 className='text-2xl font-nunito py-2 dark:text-white md:text-3xl'>Things I've worked on in the past few months</h3>
-            <p className='text-md font-nunito py-2 leading-8 text-gray-800 dark:text-gray-200'>Since the start of the bootcamp in <span className='text-liver'>September</span>, I've worked on a wide range of projects. These projects are built with tech that I've learnt over the course of 4 months.</p>
+          <h2 className='text-right text-5xl py-2 font-bayon text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Projects</h2>
+          {/* <h3 className='text-2xl font-nunito py-2 dark:text-white md:text-3xl'>Things I've worked on in the past few months</h3> */}
+            <p className='text-right text-md font-nunito py-5 text-gray-800 dark:text-gray-200 md:text-xl'>Throughout School of Code, I was exposed to a wide range of technologies <span className='text-liver'><b>(see below)</b></span>. I have also worked on several projects, both individually and as part of a team, which have honed my ability to design and implement effective software solutions. Click on any of the icons below to see a live demo of the apps!</p>
           </div>
-          <div className='lg:flex gap-10'>
-            <div className='flex flex-col justify-center items-center text-center font-nunito shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+          <div className='lg:flex gap-1'>
+            <div className='flex flex-col justify-center items-center text-center font-nunito shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 bg-alabaster'>
               <a target="_blank" href="https://fetchpoke.netlify.app/"><Image src={design} alt="Games console in grey" title="Click here"/></a>
               <h3 className='text-lg font-medium font-bayon pt-8 pb-2'>Pokemon API</h3>
               <p className='font-nunito py-2'>In week two of the bootcamp, I built an app that shows the user random Pokemon's using the PokeAPI. This was built using the fetch API along with HTML, CSS and JS. </p>
@@ -58,39 +64,43 @@ export default function Home() {
               <p className='text-gray-800 py-1'>HTML</p>
               <p className='text-gray-800 py-1'>CSS</p>
               <p className='text-gray-800 py-1'>JavaScript</p>
+              <p className='text-gray-800 py-1'>Poke API</p>
+
             </div>
-            <div className='flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+            <div className='flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 bg-alabaster'>
               <Image src={code} alt="Scissors" title="Click here"/>
               <h3 className='text-lg font-bayon font-medium pt-8 pb-2'>Snip.FYI</h3>
               <p className='font-nunito py-2'>To solve the problem many developers have of not having someplace to store handy code snippets, my team and I built an app that does exactly that.</p>
               <h4 className='py-4 text-teal-600'>Built with:</h4>
+              <p className='font-nunito text-gray-800 py-1'>JavaScript</p>
               <p className='font-nunito text-gray-800 py-1'>Node.js</p>
               <p className='font-nunito text-gray-800 py-1'>React.js</p>
               <p className='font-nunito text-gray-800 py-1'>PostgreSQL</p>
               <p className='font-nunito text-gray-800 py-1'>Express routing and middleware</p>
             </div>
-            <div className='flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+            <div className='flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 bg-alabaster'>
             <a target="_blank" href="https://life-care.onrender.com/"><Image src={consulting} alt="Heart pulse" title="Click here"/></a>
               {/* <Image src={consulting} width={100} height={100}/> */}
               <h3 className='text-lg font-bayon font-medium pt-8 pb-2'>Life Care</h3>
               <p className='font-nunito py-2'>Month long project to build an app for carer's to take notes of their clients in the most efficient way possible so they can focus all their attention on clients. </p>
               <h4 className='py-4 font-nunito text-teal-600'>Built with:</h4>
               <p className='font-nunito text-gray-800 py-1'>JavaScript</p>
-              <p className='font-nunito text-gray-800 py-1'>React.js</p>
+              <p className='font-nunito text-gray-800 py-1'>React.js (including React Router 6)</p>
               <p className='font-nunito text-gray-800 py-1'>PostgreSQL</p>
               <p className='font-nunito text-gray-800 py-1'>Chakra UI</p>
               <p className='font-nunito text-gray-800 py-1'>Express routing and middleware</p>
+              <p className='font-nunito text-gray-800 py-1'>Auth0</p>
+
             </div>
-            <div className='flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+            <div className='flex flex-col justify-center items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 bg-alabaster'>
               <a target="_blank" href="https://weather-watches.onrender.com/"><Image src={weather} alt="Umbrella" title="Click here"/></a>
               <h3 className='text-lg font-bayon font-medium pt-8 pb-2'>Weather Watchers</h3>
-              <p className='font-nunito py-2'>Month long project to build an app for carer's to take notes of their clients in the most efficient way possible so they can focus all their attention on clients. </p>
+              <p className='font-nunito py-2'>As an introductory to TypeScript, we built a TypeScript React.js weather app that gives the user an accurate reading of the weather as well as a map of their inputted location.</p>
               <h4 className='py-4 font-nunito text-teal-600'>Built with:</h4>
               <p className='font-nunito text-gray-800 py-1'>JavaScript</p>
               <p className='font-nunito text-gray-800 py-1'>React.js</p>
-              <p className='font-nunito text-gray-800 py-1'>PostgreSQL</p>
-              <p className='font-nunito text-gray-800 py-1'>Chakra UI</p>
-              <p className='font-nunito text-gray-800 py-1'>Express routing and middleware</p>
+              <p className='font-nunito text-gray-800 py-1'>TypeScript</p>
+              <p className='font-nunito text-gray-800 py-1'>OpenWeather API</p>
             </div>
           </div>
         </section>

@@ -12,6 +12,8 @@ module.exports = {
       "khaki": '#E0D8CD',
       "offwhite": '#FFFFFF',
       "liver": '#654236',
+      "reseda": '#6D735E',
+      "alabaster": '#E7E2D9'
     },
     extend: {
       fontFamily: {
@@ -25,9 +27,14 @@ module.exports = {
       container: {
           padding: '2rem'
       },
-      aspectRatio: {
-        '4/3': '4 / 3',
+      animation: {
+        shine: "shine 1s"
       },
+      keyframes: {
+        shine: {
+          "100%": { left: "125%"},
+        }
+      }
     },
   },
   plugins: [],
